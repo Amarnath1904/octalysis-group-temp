@@ -241,7 +241,7 @@ a{
 
 .banar{
 
-    background: url("/images/Section.png");
+    background: url("./images/Section.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
