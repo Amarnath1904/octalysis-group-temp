@@ -116,7 +116,7 @@ a{
 #HT_SPAN{
     color: #3D3D3D;
 }
-#Text_Content{
+.Text_Content{
 
     margin-top: 2%;
 
@@ -139,22 +139,26 @@ a{
     font-weight: 400;
     line-height: 24px;
 
+    padding: 0% 5% 0% 5%;
     
+}
+.Text_Content_row{
+
+    width: 40%;
+    height: 100vh;
+
 }
 
 #Text_Content div{
 
 
-    width: 49%;
+    width: 100%;
     height: 50vh;
 }
 
 
 .card{
 
-    width: 350px;
-    height: 429px;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -162,53 +166,58 @@ a{
 
     flex-wrap: wrap;
 
-    background-color: #ffffff;
-    border: 1px solid #e5e5e5;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 470px;
+    height: 535px;
+    border-radius: 0px 0px 10px 10px;
 
     margin: 2% 0% 2% 0%;
 
-    background:url("/images/pseudo.svg");
-    background-position: start;
+    background:url("/images/card border.svg");
+    background-position: center;
     background-repeat: no-repeat;
 
 }
-.card div{
-    
-    width: 100%;
-    height: 25%;
+.CardDivText{
 
+    height: 50%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    flex-wrap: wrap;
 
-    padding: 5% 5% 5% 5%;
-    
 }
-.card div h3{
+.CardDivText div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin: 5%;
+}
+.CardDivText div h3{
     
-    color: #232323;
-    text-align: center;
+    color: #00428F;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    text-transform: capitalize;
+    font-weight: 600;
+    line-height: normal;
 }
-.card div p{
+.CardDivText div p{
     
-    color: #666;
+    width: 70%;
+
+    align-self: stretch;
+    color: #000;
     text-align: center;
-    font-family: Nunito;
-    font-size: 15px;
+    font-family: Libre Franklin;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+    font-weight: 300;
+    line-height: 22px;
 }
 .cardSection{
 
@@ -228,6 +237,7 @@ a{
 .Group{
 
     width: 100%;
+    height: 100%;
 
     display: flex;
     flex-direction: row;
@@ -241,73 +251,233 @@ a{
 
 .banar{
 
-    background: url("./images/Section.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
     width: 100%;
     height: 60vh;
-}
-
-#WM_contaner{
-
-    height: 10vh;
-    width: 100%;
-
-    margin-top: 5%;
 
     display: flex;
     justify-content: center;
     align-items: center;
-}
-#WM{
 
-    width: 60%;
-    height: 100%;
+
+    background-color: #0078FB;
+    padding: 58.14px 94.2px 76.94px 73px;
+}
+.contaner{
+
+    width: 1120px;
+    height: 247.61px;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     justify-content: space-evenly;
+
+    border: 1px solid #fff;
+
 }
-#WM_H h1{
-    color: #0078FB;
+.Baner_Text{
+
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Baner_Text h3{
+
+    color: #fff;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.Baner_Text p{
+
+    width: 70%;
+    color: #fff;
+    text-align: center;
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+.bg-blue{
+
+    background-color: #F5FAFF;
+}
+
+
+#readMeBox{
+
+    height: 15%;
+    width: 100%;
+}
+
+readMeBox{
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.RM_container div{
+
+    height: fit-content;
+    width: fit-content;
+}
+
+.RM_link{
+
+    color: #E78F30;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.RM_link:hover{
+    
+    border-bottom: 1px solid #E78F30;
+
+    
+}
+
+footer{
+
+    width: 100%;
+    height: 111vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#footer_baner{
+
+    width: 100%;
+    height: 555px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: url("/images/footer-bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+#footer_baner h1{
+
+    color: #3D3D3D;
+    text-align: center;
     font-family: Poppins;
     font-size: 32px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 37.344px;
+    font-weight: 700;
+    line-height: 40px;
     text-transform: uppercase;
 }
+#footer_baner p{
 
-#HeroText_SERVICES{
+    color: #666;
+    text-align: center;
+    font-family: Libre Franklin;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+#footer_baner button{
 
+    width: 200px;
+    height: 50px;
+
+    border-radius: 2.5px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(102deg, #F4911C 0%, #FFB457 100%);
+
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+
+    border: none;
+    outline: none;
+
+    margin: 5% 0% 0% 0%;
+
+}
+
+#links{
+    
     width: 100%;
-    height: 10  0vh;
-    padding: 5% 5% 5% 5%;
-
-
-
-}
-
-#HeroText_SERVICES h1{
-    color: #0078FB;
-}
-#HT_SPAN_SERVICES{
-
-    color: #3D3D3D;
-}
-
-
-#Text_Content_SERVICES{
-
-    margin: 0% 2% 2% 5%;
+    height: 20vh;
 
     display: flex;
-    width: 470px;
-    height: 66px;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    
+    border-bottom: 1px solid #E5E5E5;
+}
+
+#links ul{
+
+
+
+
+    height: fit-content;
+
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    justify-content: space-evenly;
+
+
+}
+
+
+#links ul li{
+
+
+    height: fit-content;
+
+    color: #3D3D3D;
+    font-family: Libre Franklin;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+
+}
+
+#coppy_right{
+
+    display: flex;
+    width: 100%;
+    height: 10%;
+
+    margin-top: 2%;
+    margin-left: 5%;
+
 
     color: #3D3D3D;
     font-family: Libre Franklin;
@@ -315,54 +485,4 @@ a{
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-}
-
-
-#Work_Shop_ICOs{
-
-
-    width: 80px;
-    height: 80px;
-    flex-shrink: 0;
-
-    border-radius: 40px;
-    background: linear-gradient(135deg, #F4911C 0%, #FFB457 100%);
-    box-shadow: 0px 10px 30px 0px rgba(44, 130, 237, 0.40);
-}
-#IC{
-    width: 80px;
-    height: 80px;
-    flex-shrink: 0;
-
-    border-radius: 40px;
-    background: linear-gradient(135deg, #653CB5 0%, #B9F 100%);
-    box-shadow: 0px 10px 30px 0px rgba(44, 130, 237, 0.40);
-}
-#FD{
-    width: 80px;
-    height: 80px;
-    flex-shrink: 0;
-
-    border-radius: 40px;
-    border-radius: 40px;
-    background: linear-gradient(135deg, #F84E77 0%, #FFA3B9 100%);
-    box-shadow: 0px 10px 30px 0px rgba(44, 130, 237, 0.40);
-}
-
-
-.RM_link{
-
-    color: #0078FB;
-}
-.RM_link:hover{
-    
-    border-bottom: 1px solid #0078FB;
-
-    
-}
-
-#service_image_JOY{
-
-    width: 100%;
-    height: 100vh;
 }

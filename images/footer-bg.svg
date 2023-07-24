@@ -1,0 +1,44 @@
+<svg width="1287" height="471" viewBox="0 0 1287 471" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_343_1075)">
+<mask id="mask0_343_1075" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-2" y="14" width="1285" height="457">
+<path d="M1283 14.5605H-2V470.561H1283V14.5605Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_343_1075)">
+<path d="M1073.11 14.1211H-1.73438V470.121H1073.11V14.1211Z" fill="white"/>
+<g filter="url(#filter0_f_343_1075)">
+<path d="M112.905 856.094C151.127 798.984 109.96 644.879 20.9551 511.892C-68.0496 378.904 -171.187 317.394 -209.41 374.504C-247.632 431.614 -206.465 585.719 -117.46 718.706C-28.4552 851.694 74.6826 913.205 112.905 856.094Z" fill="#0078FB"/>
+</g>
+<g filter="url(#filter1_f_343_1075)">
+<path d="M1566.91 237.551C1603.36 183.089 1541.11 1.77411 1427.87 -167.427C1314.63 -336.628 1193.28 -429.643 1156.83 -375.181C1120.38 -320.719 1182.63 -139.404 1295.87 29.7976C1409.12 198.999 1530.46 292.013 1566.91 237.551Z" fill="#0078FB"/>
+</g>
+</g>
+</g>
+<g clip-path="url(#clip1_343_1075)">
+<path d="M772.602 17L756.602 1H532.602L516.602 17H772.602Z" fill="#FBFCFC"/>
+<path d="M84.6016 17H516.602L532.602 1H756.602L772.602 17H1204.6" stroke="url(#paint0_linear_343_1075)" stroke-opacity="0.7"/>
+</g>
+<defs>
+<filter id="filter0_f_343_1075" x="-1222.69" y="-645.828" width="2348.87" height="2522.25" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="499.5" result="effect1_foregroundBlur_343_1075"/>
+</filter>
+<filter id="filter1_f_343_1075" x="147.412" y="-1389.75" width="2428.92" height="2641.86" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="499.5" result="effect1_foregroundBlur_343_1075"/>
+</filter>
+<linearGradient id="paint0_linear_343_1075" x1="84.6016" y1="17.0004" x2="1204.6" y2="17.0004" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0"/>
+<stop offset="0.354167" stop-color="#0078FB"/>
+<stop offset="0.666667" stop-color="#0078FB"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_343_1075">
+<rect width="1285" height="456" fill="white" transform="translate(-2 14.5605)"/>
+</clipPath>
+<clipPath id="clip1_343_1075">
+<rect width="1120" height="18" fill="white" transform="translate(84.6016)"/>
+</clipPath>
+</defs>
+</svg>
