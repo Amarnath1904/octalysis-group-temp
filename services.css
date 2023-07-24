@@ -372,7 +372,7 @@ footer{
     justify-content: center;
     align-items: center;
 
-    background: url("/images/footer-bg.svg");
+    background: url("./images/footer-bg.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
