@@ -1,0 +1,123 @@
+.Group{
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+}
+
+
+.card{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    width: 439px;
+    height: 492px;
+    border-radius: 0px 0px 10px 10px;
+
+    margin: 2% 0% 2% 0%;
+
+    background:url("./images/card border.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 0px 19px rgba(0, 0, 0, 0.12));
+
+}
+.CardDivImg{
+
+    height: 40%;
+    margin-bottom: 10%;
+}
+#HAW_img{
+    margin-bottom: 0%;
+}
+.CardDivText{
+
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.CardDivText div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CardDivText div h3{
+    
+    color: #00428F;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.CardDivText div p{
+    
+    width: 70%;
+
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+#readMeBox{
+
+    height: 10%;
+    width: 100%;
+}
+
+readMeBox{
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+
+
+
+.RM_container div{
+
+    height: fit-content;
+    width: fit-content;
+}
+
+.RM_link{
+
+    color: #E78F30;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.RM_link:hover{
+    
+    border-bottom: 1px solid #E78F30;
+
+    
+}

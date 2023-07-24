@@ -39,7 +39,7 @@ nav{
     z-index: 1000;
     top: 0;
 
-    width: 100%;
+    width: 100vw;
     height: 12vh;
 
 
@@ -77,20 +77,22 @@ li a:hover{
 
 
 a{  
-    text-decoration: none;
 
-    
+
+    text-decoration: none;
     color: #3D3D3D;
     font-family: Libre Franklin;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 21px;
+    line-height: 21px; 
 }
 #Page_Location_Indicator{
+
+    
     width: 100%;
     height: 5vh;
-    margin: 2% 0% 0% 5%;
+    margin: 7% 0% 0% 5%;
 }
 
 .PLI_TEXT{
@@ -121,6 +123,9 @@ a{
 #HT_SPAN{
     color: #3D3D3D;
 }
+.p-5{
+    padding: 0% 5% 0% 5%;
+}
 .Text_Content{
 
     margin-top: 2%;
@@ -141,15 +146,12 @@ a{
     font-family: Libre Franklin;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-
-    padding: 0% 5% 0% 5%;
+    line-height: 25px;
     
 }
 .Text_Content_row{
 
-    width: 40%;
+    width: 45%;
     height: 100vh;
 
 }
@@ -162,98 +164,6 @@ a{
 }
 
 
-.card{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    flex-wrap: wrap;
-
-    width: 470px;
-    height: 535px;
-    border-radius: 0px 0px 10px 10px;
-
-    margin: 2% 0% 2% 0%;
-
-    background:url("./images/card border.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: drop-shadow(0px 0px 19.89390754699707px rgba(0, 0, 0, 0.12));
-
-}
-.CardDivText{
-
-    height: 50%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-}
-.CardDivText div{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-
-    margin: 5%;
-}
-.CardDivText div h3{
-    
-    color: #00428F;
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-.CardDivText div p{
-    
-    width: 70%;
-
-    align-self: stretch;
-    color: #000;
-    text-align: center;
-    font-family: Libre Franklin;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 22px;
-}
-.cardSection{
-
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-
-
-
-}
-
-.Group{
-
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-
-
-
-}
 
 .banar{
 
@@ -317,44 +227,6 @@ a{
     background-color: #F5FAFF;
 }
 
-
-#readMeBox{
-
-    height: 15%;
-    width: 100%;
-}
-
-readMeBox{
-
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    align-items: end;
-    justify-content: end;
-}
-
-.RM_container div{
-
-    height: fit-content;
-    width: fit-content;
-}
-
-.RM_link{
-
-    color: #E78F30;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-}
-.RM_link:hover{
-    
-    border-bottom: 1px solid #E78F30;
-
-    
-}
 
 footer{
 
