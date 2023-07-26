@@ -61,7 +61,7 @@
     justify-content: center;
     align-items: center;
 }
-.CardDivText div h3{
+.CardDivTextHeading h3{
     
     color: #00428F;
     font-family: Poppins;
@@ -70,7 +70,7 @@
     line-height: normal;
     margin-bottom: 2%;
 }
-.CardDivText div p{
+.CardDivTextPara p{
     
     width: 70%;
 

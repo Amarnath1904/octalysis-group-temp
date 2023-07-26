@@ -1,0 +1,201 @@
+@media screen and (max-width: 768px) {
+    
+    
+
+    #Nav_links{
+
+        display: none;
+    }
+
+    #ContactUS_button{
+            
+        display: none;
+    }
+    
+
+    .Baner_Text h3{
+        font-size: 20px;
+    }
+    .Baner_Text p{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    
+
+    .Baner_Text h3{
+        font-size: 20px;
+    }
+    .Baner_Text p{
+        font-size: 10px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+    
+
+    #Nav_links{
+
+        display: none;
+    }
+
+    #ContactUS_button{
+            
+        display: none;
+    }
+
+    .Text_Content{
+
+        flex-direction: row;
+    }
+
+
+    .Text_Content_row{
+
+        width: 100%;
+
+        margin-bottom: 10%;
+    }
+
+    #HeroText h1{
+        font-size: 20px;
+
+    }
+    
+    .card{
+
+        width: 260px;
+        height: 260px;
+        background-size: contain;
+        background-position: center;
+
+
+        justify-content: space-evenly;
+
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .CardDivImg{
+
+        width: 100%;
+        height: 40%;
+    }
+
+    .CardDivImg img{
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .CardDivText h3{
+
+        font-size: 13px;
+    } 
+
+    .CardDivTextPara p{
+
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .banar{
+
+        height: 30vh;
+        padding: 5% 5% 5% 5%;
+    }
+    
+    .contaner{
+
+        width: 100%;
+        height: 100px;
+    }
+
+    .Baner_Text h3{
+        font-size: 12px;
+    }
+
+    .Baner_Text p{
+        font-size: 8px;
+        line-height: normal;
+        width: 90%;
+    }   
+
+
+    .CardDivImg div{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .CardDivImg div img{
+
+        width: 70%;
+        height: 70%;
+    }
+
+    #HAW_img{
+
+        margin: 0;
+
+        width: 200px;
+        height: 113px;
+    }
+    #EE_IMG{
+        width: 50%;
+        margin-top: 10px;
+    }
+    #LD_IMG{
+
+        width: 47%;
+    }
+    .RM_link{
+
+        font-size: 10px;
+    }
+    #balls{
+        width: 15px;
+    }
+
+    #footer_baner{
+
+        height: 40vh;
+    }
+
+    #footer_baner h1{
+            
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #footer_baner p{
+            
+        font-size: 10px;
+        line-height: 15px;
+
+        padding: 5% 5% 5% 5%;
+    }
+
+    #footer_baner button{
+            
+        font-size: 10px;
+        line-height: 15px;
+        width: 100px;
+        height: 40px;
+    }
+
+    #links{
+        display: none;
+    }
+    #coppy_right{
+        display: none;
+    }
+
+}
+
